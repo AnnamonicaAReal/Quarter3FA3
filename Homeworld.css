@@ -1,0 +1,79 @@
+body {
+    background: linear-gradient(to bottom, #000076, #000033);
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-shadow: 0px 0px 10px #ffffff;
+}
+
+h2 {
+    font-size: 24px;
+    color: #ffcc00;
+    text-shadow: 0px 0px 10px #ffcc00;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+}
+
+/* Blue Diamond */
+p:nth-of-type(4), p:nth-of-type(9) { 
+    color: #3399ff; 
+    font-style: italic;
+}
+
+/* Yellow Diamond */
+p:nth-of-type(5), p:nth-of-type(8) { 
+    color: #ffcc00; 
+    font-weight: bold;
+}
+
+/* White Diamond */
+p:nth-of-type(6), p:nth-of-type(10) { 
+    color: #ffffff; 
+    text-shadow: 0px 0px 10px #ffffff;
+    font-size: 20px;
+}
+
+p:nth-of-type(12) {
+    font-size: 20px;
+    text-shadow: 0px 0px 15px #ffffff;
+}
+p:nth-of-type(15) {
+    font-size: 20px;
+    color: #ffb0f2;
+    text-shadow: 0px 0px 15px #ff0095;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+.influence {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    display: inline-block;
+}
+
+h4 {
+    color: #d792ff;
+    font-size: 20px;
+    text-shadow: 0px 0px 15px #ff00dd
+}
+
+script {
+    display: none;
+}
